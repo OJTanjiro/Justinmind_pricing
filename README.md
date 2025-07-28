@@ -30,35 +30,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 
-
-.pricing-cards {
+<section>.pricing-cards {
     display: flex;
     gap: 32px;
     justify-content: center;
@@ -78,3 +52,4 @@
     position: relative;
     transition: box-shadow 0.2s;
 }
+</section>
