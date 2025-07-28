@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red:red;
+    --tomato:tomato;
+    --blue:blue;
+    --green:green;
+    --white:white;
+}
+
+.ui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web-name{
+    border: 1px solid var(--green);
+}
+
+.cards{
+    border: 2px solid black;
+    border-radius: 18px;
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+
+.pricing-cards {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+     
+}
+
+.pricing-card {
+    background: var(--white);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(30,136,229,0.08), 0 1.5px 6px rgba(0,0,0,0.03);
+    padding: 36px 32px 32px 32px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    position: relative;
+   
+}
+
+.pricing-section {
+    /* border: 1px solid black; */
+    /* padding: 64px 0; */
+    /* background: var(--white); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
