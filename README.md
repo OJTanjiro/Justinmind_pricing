@@ -3,36 +3,10 @@
 
 
     <section class="pricing-section">
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <h2>Professional</h2>
-                <div class="price">
-                  <span class="pricepermonth">$19/mo</span>
-                </div>
-
-                <div class="subtitle">Billed annually</div>
-                <ul class="features">
-                    <li>All prototyping features</li>
-                    <li>Unlimited projects</li>
-                    <li>Unlimited reviewers</li>
-                    <li>Export to HTML</li>
-                    <li>Customer support</li>
-                </ul>
-                <button class="btn-primary">Start free trial</button>
-            </div>
 
 
 
-
-        </div>
-    </section>
-
-
-
-
-    
-
-<section>.pricing-cards {
+.pricing-cards {
     display: flex;
     gap: 32px;
     justify-content: center;
@@ -52,4 +26,10 @@
     position: relative;
     transition: box-shadow 0.2s;
 }
-</section>
+
+    </section>
+
+
+
+
+    
